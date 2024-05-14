@@ -7,7 +7,7 @@ import org.example.service.annotation.Currency;
 import java.util.Scanner;
 import java.util.ServiceLoader;
 
-public class Consumer {
+public class Main {
     public static void main(String[] args) {
 
         ServiceLoader<CurrencyConverter> loader = ServiceLoader.load(CurrencyConverter.class);
